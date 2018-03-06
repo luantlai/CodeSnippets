@@ -6,14 +6,14 @@
 	<string>lsb</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#button#&gt;.setTitle(NSLocalizedString("&lt;#T##key: String##String#&gt;", value: "&lt;#T##String#&gt;", comment: ""), for: .normal)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1734F528-2496-4D27-9710-A049EC6FDCA2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Localized String Button</string>
 	<key>IDECodeSnippetUserSnippet</key>
