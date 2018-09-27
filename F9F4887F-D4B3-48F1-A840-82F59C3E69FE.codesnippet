@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ls</string>
+	<string>backmain</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
-		<string>CodeBlock</string>
-		<string>StringOrComment</string>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString("&lt;#T##key: String##String#&gt;", value: "&lt;#T##String#&gt;", comment: "")</string>
+	<string>BackgroundThread.network {
+    &lt;#background_task#&gt;
+    MainThread.async { [weak self] in
+        &lt;#main_task#&gt;
+    }
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>761F884F-E540-4731-B576-6A771E5D64F9</string>
+	<string>F9F4887F-D4B3-48F1-A840-82F59C3E69FE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Localized String</string>
+	<string>Background then Main Task</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

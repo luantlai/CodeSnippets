@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ls</string>
+	<string>ifrelease</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
-		<string>CodeBlock</string>
-		<string>StringOrComment</string>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString("&lt;#T##key: String##String#&gt;", value: "&lt;#T##String#&gt;", comment: "")</string>
+	<string>#if RELEASE
+        &lt;#release_code#&gt;
+        #else
+        
+        #endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>761F884F-E540-4731-B576-6A771E5D64F9</string>
+	<string>01423147-714E-474C-9CE7-F69A35C318FE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Localized String</string>
+	<string>Release condition</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

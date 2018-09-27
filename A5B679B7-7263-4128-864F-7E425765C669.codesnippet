@@ -6,6 +6,9 @@
 	<string>guardwelf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
+		<string>TopLevel</string>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
